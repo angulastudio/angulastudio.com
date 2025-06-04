@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.logo-main {
+  width: 260px;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.email-button {
+  display: inline-block;
+  background-color: #00aaff;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s;
+  font-size: 1.1rem;
+}
+
+.email-button:hover {
+  background-color: #008ecc;
+}
+
+.pattern-right {
+  position: fixed;
+  top: 10rem;
+  right: 2rem;
+  height: 50px;
+  z-index: 0;
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .email-button {
+    padding: 0.9rem 1.8rem;
+    font-size: 1rem;
+  }
+
+  .pattern-right,
+  .pattern-left {
+    width: 32px;
+  }
+
+  .pattern-right {
+    right: 1.5rem;
+  }
+
+  .pattern-left {
+    left: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-main {
+    width: 40px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .email-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .pattern-right,
+  .pattern-left {
+    width: 24px;
+  }
+
+  .pattern-right {
+    height: 100px;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-main {
+    width: 40px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .email-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .pattern-right,
+  .pattern-left {
+    width: 24px;
+  }
+
+  .pattern-right {
+    height: 80px;
+    top: 1rem;
+    right: 1rem;
+  }
+}
