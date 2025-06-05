@@ -126,12 +126,9 @@ body {
   }
 
   .pattern-container {
-    /* display: none; */
     height: 20vh;
     width: 100%;
-    bottom: 0;
     justify-content: center;
-    background-color: antiquewhite;
   }
 
   .pattern-right {
@@ -140,6 +137,7 @@ body {
     object-fit: fill;
     transform: rotate(90deg);
   }
+
 
   .description {
     font-size: 1.1rem;
